@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+  <header class="bg-success text-white py-3 shadow-sm fixed-top">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <h1 class="h4 mb-0 animate_animated animate_fadeInLeft">Users: Rindi Antika</h1>
+        <nav>
+          <ul class="list-unstyled d-flex gap-4 mb-0 animate_animated animate_fadeInRight">
+            <li><a href="index.html" class="text-white text-decoration-none hover-underline">Home</a></li>
+            <li><a href="profil.html" class="text-white text-decoration-none hover-underline">Profil</a></li>
+            <li><a href="gallery.html" class="text-white text-decoration-none hover-underline">Gallery</a></li>
+            <li><a href="formulir.html" class="text-white text-decoration-none hover-underline">Pendaftaran</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+<!-- Gallery Section -->
+<section class="container my-5 py-5">
+  <h2 class="text-center text-success mb-4 animate_animated animate_fadeInDown">Gallery</h2>
+  
+  <!-- Baris 1 - Gambar Kiri Kanan -->
+  <div class="row justify-content-between">
+    <!-- Gambar Kiri -->
+    <div class="col-md-5 mb-4 animate_animated animate_fadeInLeft">
+      <div class="card shadow-lg" style="max-width: 350px;">
+        <div class="ratio ratio-16x9">
+          <img src="asset/gallery1.jpg" alt="Foto 1" class="card-img-top rounded object-fit-cover">
+        </div>
+        <div class="card-body p-2">
+          <p class="card-text text-muted small">Bukit Anak Dara.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Gambar Kanan -->
+    <div class="col-md-5 mb-4 animate_animated animate_fadeInRight">
+      <div class="card shadow-lg" style="max-width: 350px;">
+        <div class="ratio ratio-16x9">
+          <img src="asset/gallery2.jpg" alt="Foto 2" class="card-img-top rounded object-fit-cover">
+        </div>
+        <div class="card-body p-2">
+          <p class="card-text text-muted small">Bukit Nanggi.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Baris 2 - Gambar Kiri Kanan -->
+  <div class="row justify-content-between">
+    <!-- Gambar Kiri -->
+    <div class="col-md-5 mb-4 animate_animated animate_fadeInLeft">
+      <div class="card shadow-lg" style="max-width: 350px;">
+          <img src="asset/gallery3.jpg" alt="Foto 3" class="card-img-top rounded object-fit-cover">
+        </div>
+        <div class="card-body p-2">
+          <p class="card-text text-muted small">Pengukuhan HMPS Pendidikan Informatika.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Baris 3 - Video Kiri Kanan -->
+    <div class="row justify-content-center">
+      <!-- Video Kiri -->
+      <div class="col-md-5 mb-4 animate_animated animate_fadeInLeft">
+        <div class="card shadow-lg">
+          <div class="ratio ratio-16x9">
+            <video controls class="rounded">
+              <source src="asset/video2.mp4" type="video/mp4">
+              Browser Anda tidak mendukung video.
+            </video>
+          </div>
+          <div class="card-body p-2">
+            <p class="card-text text-muted small">Kegiatan penutupan pembekalan safari ramadhan.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video Kanan -->
+      <div class="col-md-5 mb-4 animate_animated animate_fadeInRight">
+        <div class="card shadow-lg">
+          <div class="ratio ratio-16x9">
+            <video controls class="rounded">
+              <source src="asset/vid2.mp4" type="video/mp4">
+              Browser Anda tidak mendukung video.
+            </video>
+          </div>
+          <div class="card-body p-2">
+            <p class="card-text text-muted small">MDQH NWDI PANCOR.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+</body>
+</html>
